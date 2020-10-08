@@ -54,6 +54,10 @@ driver = WhatsAPIDriver(
 driver.wait_for_login()
 #driver = WhatsAPIDriver(loadstyles=True)
 
+while not driver.is_logged_in():
+    print('Waiting for login...')
+    time.sleep(10)
+
 try:
     while True:
         messages_by_sender = driver.get_unread()

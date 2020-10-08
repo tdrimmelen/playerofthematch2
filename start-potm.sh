@@ -1,0 +1,1 @@
+docker run --network selenium -it -e SELENIUM='http://firefox:4444/wd/hub' -v $(pwd):/app  potm /bin/bash -c "pip install ./;pip install fuzzywuzzy;pip list;cd playerofthematch;python run.py"
