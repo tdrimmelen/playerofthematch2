@@ -6,6 +6,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+## Projected forked from
+(https://github.com/abhik1505040/WebWhatsapp-Wrapper)
+
 ## What is it?
 This package is used to provide a python interface for interacting with WhatsAPP Web to send and receive Whatsapp messages.
 It is based on the official Whatsapp Web Browser Application and uses Selenium browser automation to communicate with Whatsapp Web.
